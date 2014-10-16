@@ -27,7 +27,7 @@ public class RDR
      * @param riskData
      * @return
      */
-    private static JsonElement getRiskDataJson(RiskData riskData)
+    public static JsonElement getRiskDataJson(RiskData riskData)
     {
         JsonObject riskDataJson = new JsonObject();
         riskDataJson.addProperty("id", riskData.getId());
@@ -64,7 +64,7 @@ public class RDR
         return riskDataJson;
     }
 
-    private static JsonElement getRiskDataJson(List<RiskData> riskData)
+    public static JsonElement getRiskDataJson(List<RiskData> riskData)
     {
         JsonArray jsonArray = new JsonArray();
         for (RiskData rd : riskData) {

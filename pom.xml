@@ -103,6 +103,17 @@
 			<!-- It is recommended to use the same version as the requested SonarQube server -->
 			<version>2.11</version>
 		</dependency>
+    <dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>2.4</version>
+    </dependency>
+    <dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20140107</version>
+    </dependency>
+
 
 		
 	</dependencies>
@@ -116,7 +127,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>eu.riscoss.dataproviders.App</mainClass>
+							<mainClass>eu.riscoss.dataproviders.Provider</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -131,7 +142,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>eu.riscoss.dataproviders.App</mainClass>
+							<mainClass>eu.riscoss.dataproviders.Provider</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

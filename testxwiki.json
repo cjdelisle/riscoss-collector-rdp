@@ -1,0 +1,27 @@
+{
+    "riscoss_targetName":"xwiki",
+
+    "targetFossology": "http://fossology.ow2.org/?mod=nomoslicense&upload=38&item=292002",
+
+    "Sonar_host": "http://sonar.xwiki.org",
+    "Sonar_resourceKey": "org.xwiki.platform:xwiki-platform",
+
+    "JIRA_URL": "http://jira.xwiki.org",
+    "JIRA_AnonymousAuthentication": true,
+    "JIRA_Username": "username",
+    "JIRA_Password": "password",
+
+    "targetMarkmail": "http://xwiki.markmail.org",
+
+    "targetMaven": "./input/dependencies.html",
+
+    "GitRepositoryURI": "http://***",
+
+    "__unused": {
+        "JIRA_InitialDate": "2014/07/28",
+        "Sonar_singleMetrics": "ncloc, coverage, duplicated_lines_density",
+        "Sonar_historyMetrics": "ncloc, comment_lines",
+        "licenseFile": "./input/LicensesCfg.html",
+        "Indicators_XML": "./input/Indicators.xml"
+    }
+}
