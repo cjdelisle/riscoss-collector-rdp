@@ -1,0 +1,70 @@
+Info on selected OW2 projects
+
+Sat4J: LGPL,
+    efficient open source library of SAT solvers in Java
+    Maven, OW2 SVN (download), Git
+	Sonar: org.ow2.sat4j:org.ow2.sat4j.pom
+		coverage missing, complexity of many single files missing.
+	Fossology ok!
+	Jira: Sonar, ssh problem
+    
+ASM: BSD License,
+     Java bytecode manipulation framework, small, fast
+    NO Maven??? OW2 SVN (download), Git?
+	Fossology ok!
+	Sonar: no coverage, complexity is ok.
+	No Jira found.
+	
+SpagoBI: Mozilla Public License (MPL)
+    Business Intelligence Platform, uses FOSS tools as analytic eng.
+    Maven, OW2 SVN (download), Git
+	Sonar: should arrive at end of August
+	Fossology ok!
+	Jira: Ok!
+	
+	
+WebLab: LGPL,
+    service oriented/semantic driven integ. platform for mediamining
+    Maven, OW2 SVN (download), Git
+	Sonar: org.ow2.weblab:trunk
+		complexity of many single files missing.
+	Fossology ok!
+	Jira: Sonar, ssh problem
+	
+Easybeans (in alternative to ASM which is not built with Maven): LGPL,
+	Maven, 
+	http://fossology.ow2.org/?mod=nomoslicense&upload=12&item=92923
+	Sonar: org.ow2.easybeans:easybeans  
+		complexity of many single files missing.
+	Fossology ok!
+	Jira: problem "Host name may not be null" (no ssh)
+
+++Sonar:
+
+Sat4J: now available, no coverage.
+ASM: now available, no coverage
+SpagoBI: not available, until August
+WebLab: ok, available.
+Easybeans: now available, no coverage
+
+Antepedia licenses analysis:
+Sat4J: csv, html
+ASM:
+SpagoBI:
+WebLab:
+Easybeans: csv, html
+
+Fossology: available for all, ok.
+
+Markmail: I didn't find any of their mailing lists on markmail.org
+
+Jira (webservice access not reachable, possibly there are some problems with SSH keys for https access. Fabio was contacted):
+
+Sat4J: https://jira.ow2.org/browse/SAT/
+ASM: ? not found
+SpagoBI: http://www.spagoworld.org/jira/browse/SPAGOBI
+WebLab: https://jira.ow2.org/browse/WEBLAB
+Easybeans: jira.easybeans.org
+
+Maven, Git: all these projects should be based on them (?)
+mvn dependencies could be for sure provided by everyone or directly by OW2. 

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<indicators>
+	<entity name="xwiki">
+		<!-- <indicator name="i100" value="222"/> -->
+		<!-- <indicator name="distribution" values="222, 234, 321"/> --><!-- normalised to sum=1! -->
+		<indicator name="Holiday__When_the_commit_was_made" values="22, 3, 1" />
+	</entity>
+	<entity name="easybeans">
+		<indicator name="Holiday__When_the_commit_was_made" values="21, 2, 1" />
+	</entity>
+	<entity name="sat4j">
+		<indicator name="Holiday__When_the_commit_was_made" values="5, 0, 0" />
+	</entity>
+	<entity name="weblab">
+		<indicator name="Holiday__When_the_commit_was_made" values="19, 3, 1" />
+	</entity>
+	<entity name="spagobi">
+		<indicator name="Holiday__When_the_commit_was_made" values="23, 2, 0" />
+	</entity>
+</indicators>
+
+

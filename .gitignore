@@ -1,0 +1,28 @@
+# Build
+target
+target-eclipse
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+overlays
+
+# Eclipse
+.classpath
+.project
+.settings
+.checkstyle
+bin
+
+# NetBeans
+nbproject
+
+# Other
+*.log.*
+*.log
+*~
+
+#HSQLDB created by unit tests
+database

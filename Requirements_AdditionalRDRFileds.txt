@@ -1,0 +1,25 @@
+servirebbero delle entry aggiuntive per i risk data:
+
+Proposal:
+
+for all types:
+description: String
+source: String //Jira, Sonar,... www.xy...
+reference-date-start: date   //to define the time interval for the calculation of some data (average, distribution etc.)
+reference-date-end: date
+
+for "distribution":
+A String ("key") associated to each number of the distribution, to characterize the slot  //"20-40", or "Monday-Friday" etc.
+
+Especially the last one is needed to be shown also in the user interface - any "distribution" would be useless and incomprehensible without it.
+
+All this data except reference-start/end date are general to each instance of the data, so they could be saved also in a separate table - this is up to the implementer.
+
+Moreover, I propose to add a type "NUMBERLIST" to save general lists of numbers.
+
+NOTE: please check in the tool: 
+* some numbers taken automatically from RDR, and not user-changed, get an error for wrong type when starting the evaluation!  (40.0)
+* distributions need to sum to 1. Check and call for action before running the evaluation.
+* also do a general check on types (int, double)
+
+Mirko
